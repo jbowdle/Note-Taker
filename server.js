@@ -8,6 +8,7 @@ app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+// the api endpoint contains the get, post and delete methods for handling the notes
 app.use("/api", apiRouter);
 
 app.use(express.static('public'));
@@ -22,7 +23,7 @@ app.get("/notes", (req, res) => {
 
 app.listen(PORT, () => console.log(`App is listening at http://localhost:${PORT}`));
 
-// replace with 404 page?
+// Going to any non specified endpoints will lead the user back to the homepage
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "/public/index.html"));
 });

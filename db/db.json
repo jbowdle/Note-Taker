@@ -1,27 +1,12 @@
 [
     {
-        "title": "addID",
-        "text": "addID",
-        "id": "0c2543b5-6944-40b4-92e1-3881fff0fdea"
+        "title": "This note is deleteable!",
+        "text": "Click the red trashcan",
+        "id": "85ffce20-55f4-4c24-b083-3333d8ca2b7d"
     },
     {
-        "title": "test2",
-        "text": "test2",
-        "id": "226fd30a-5081-40f8-96e8-017aaef64c52"
-    },
-    {
-        "title": "test3",
-        "text": "test3",
-        "id": "8f8f658c-cc79-4fc0-924b-a23b96fcd44e"
-    },
-    {
-        "title": "test4",
-        "text": "test4",
-        "id": "b37883d5-c11f-4ccc-bb5a-8cd8ed796a51"
-    },
-    {
-        "title": "note from browser",
-        "text": "note from browser",
-        "id": "72d52341-8b11-4770-b737-3fd6fc81dc34"
+        "title": "Test note from browser",
+        "text": "test note",
+        "id": "29f6a602-c102-43e0-80bf-9e3629241fa0"
     }
 ]
